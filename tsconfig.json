@@ -1,0 +1,49 @@
+{
+    "ts-node": {
+        "swc": true,
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "compilerOptions": {
+        /* Projects */
+        "incremental": true,
+
+        /* Language and Environment */
+        "target": "es6",
+        "lib": ["dom", "es2022"],
+        "jsx": "react-jsx",
+        "isolatedModules": true,
+        /* Modules */
+        "module": "ES2022",
+        "verbatimModuleSyntax": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "rootDirs": ["./src"],
+        "resolveJsonModule": true,
+
+        /* Emit */
+        "noEmit": true,
+        "sourceMap": true,
+
+        /* Interop Constraints */
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Type Checking */
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "noUncheckedIndexedAccess": true,
+
+        /* Completeness */
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"]
+}
